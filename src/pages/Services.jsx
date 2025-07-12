@@ -1,8 +1,14 @@
-import React from 'react'
+import ConsultationCTA from '../components/ConsultationCTA'
+import ServiceHighlight from '../components/ServiceHighlight'
+import StrategyCommitment from '../components/StrategyCommitment'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div>
+      <ServiceHighlight/>
+      <StrategyCommitment/>
+      <ConsultationCTA/>
+    </div>
   )
 }
 

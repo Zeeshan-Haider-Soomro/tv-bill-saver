@@ -1,8 +1,12 @@
-import React from 'react'
+import ContactSection from "../components/ContactSection"
+import LocationSection from "../components/LocationSection"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <ContactSection />
+      <LocationSection />
+    </div>
   )
 }
 

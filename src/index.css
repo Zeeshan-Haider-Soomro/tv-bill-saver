@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+/* index.css or App.css */
+@keyframes logoEnter {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.logo-animation {
+  animation: logoEnter 2.5s ease-out forwards;
+}

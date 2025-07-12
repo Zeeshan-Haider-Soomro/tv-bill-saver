@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo */}
         <div className="flex flex-col items-start space-y-2">
-          <img src="/images/FooterLogo.png" alt="Logo" className="h-50" />
+          <img src="/images/FooterLogo.png" alt="Logo" className="md:block hidden h-50" />
           {/* <span className="text-2xl font-signature text-[#0000FF] italic font-semibold">
             TvBill<span className="text-[#0000FF] font-bold">Saver</span>
           </span> */}
@@ -61,10 +61,8 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>Sales Support</li>
             <li>Customer Support</li>
-            <li>Social Media Marketing</li>
-            <li>Web Development</li>
+            <li>Digital Marketing</li>
             <li>PPC Advertising</li>
-            <li>SEO Optimization</li>
           </ul>
         </div>
 
@@ -74,7 +72,7 @@ const Footer = () => {
           <ul className="space-y-3">
             <li className="flex items-center space-x-2">
               <HiOutlinePhone className="text-[#0000FF]" />
-              <span>+92 321 8456611</span>
+              <span>347 450 7084</span>
             </li>
             <li className="flex items-center space-x-2">
               <HiOutlineMail className="text-[#0000FF]" />
@@ -82,12 +80,12 @@ const Footer = () => {
                 href="mailto:contact@infinityxdynamics.com"
                 className="hover:text-[#0000FF]"
               >
-                contact@infinityxdynamics.com
+                Info@tvbillsaver.work
               </a>
             </li>
             <li className="flex items-center space-x-2">
               <HiOutlineLocationMarker className="text-[#0000FF]" />
-              <span>Infinity X Dynamics, Karachi, Pakistan</span>
+              <span>201 W 93RD ST 9D New York, NY 10025 - 7420</span>
             </li>
           </ul>
 
@@ -121,7 +119,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Strip */}
-      <div className="text-center border-t border-gray-200 py-4 text-md">
+      <div className="text-center border-t border-gray-200 py-4 text-lg">
         © {new Date().getFullYear()} VireGlow Inc. All rights reserved ·
         <Link href="#" className="hover:text-[#0000FF] ml-1">
           Privacy Policy
