@@ -1,4 +1,3 @@
-
 const LocationSection = () => {
   return (
     <section className="bg-gradient-to-br from-[#f4f0f9] to-[#f9f7f4] md:py-16 px-6">
@@ -10,7 +9,7 @@ const LocationSection = () => {
             <span className="text-blue-600">Our</span> Location
           </h2>
           <p className="text-gray-700 mb-6">
-            Reach out to Vireglow Inc for expert IT solutions and marketing strategies tailored to your business needs in the digital landscape.
+            Reach out to TV Bill Saver LLC for expert IT solutions and results-driven sales and telemarketing strategies — tailored to help your business grow in today’s digital landscape.
           </p>
           <div className="mb-4">
             <p className="font-semibold">Location</p>
@@ -25,8 +24,8 @@ const LocationSection = () => {
         {/* Right Side - Google Map */}
         <div>
           <iframe
-            title="VireGlow Office Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.3621542673715!2d-77.34712952415857!3d38.66558107266525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b65c464518fcf1%3A0xd7d07d0f2b382d1f!2s13041%20Thrift%20Ln%2C%20Woodbridge%2C%20VA%2022193%2C%20USA!5e0!3m2!1sen!2s!4v1720771367895"
+            title="TV Bill Saver LLC Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.7691319154227!2d-73.9728698237759!3d40.793448971380094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25884e7baff6b%3A0x6f3090f2be967a61!2s201%20W%2093rd%20St%20%239D%2C%20New%20York%2C%20NY%2010025%2C%20USA!5e0!3m2!1sen!2sus!4v1720913404162"
             width="100%"
             height="300"
             className="rounded-2xl shadow-xl border-2 border-blue-100"

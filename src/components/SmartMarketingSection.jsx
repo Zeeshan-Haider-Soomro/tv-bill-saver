@@ -7,21 +7,19 @@ const SmartMarketingSection = () => {
         
         {/* Left Section - Heading */}
         <div className="flex-1 text-center md:text-left">
-          <p className="text-sm text-gray-700 mb-2">Marketing solutions Provider</p>
+          <p className="text-sm text-gray-700 mb-2">Sales & Telemarketing Solutions Provider</p>
           <h2 className="text-3xl md:text-4xl font-bold leading-tight">
             We're a <span className="text-blue-600">Leader</span> in <br />
-            Smart Digital <br />
-            <span className="text-blue-600">Marketing</span> Solutions
+            Smart, Performance-Driven  <br />
+            <span className="text-blue-600">Sales & Telemarketing </span> Services
           </h2>
         </div>
 
         {/* Right Section - Paragraph + CTA */}
         <div className="flex-1 text-center md:text-left">
           <p className="text-gray-800 mb-6 text-sm md:text-base">
-            At VireGlow Inc, we don't just follow marketing trends — we set them.
-            With years of hands-on experience, we understand that every digital channel
-            offers its own strengths. But the real magic happens when they're combined
-            with strategy, creativity, and performance-driven execution.
+            At TV Bill Saver LLC, we don’t just follow sales strategies — we redefine them.
+With years of industry expertise, we know that every customer interaction holds potential. But real success comes when expert telemarketing, strategic outreach, and performance-driven execution come together to deliver measurable results.
           </p>
 
          <CommonButton text="View All Solutions →" link="/services" />

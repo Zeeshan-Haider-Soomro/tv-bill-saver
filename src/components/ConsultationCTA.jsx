@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import CommonButton from "./CommonButton";
 
 const ConsultationCTA = () => {
   return (
@@ -20,21 +21,12 @@ const ConsultationCTA = () => {
 
         {/* Main Call to Action */}
         <h2 className="text-2xl md:text-3xl font-bold mb-6">
-          Get Started with a Free{" "}
-          <span className="text-blue-600">consultation</span>
+          Schedule Your Free {" "}
+          <span className="text-blue-600">Strategy Session</span>
         </h2>
 
         {/* Button */}
-        <Link to="/get-proposal">
-          <button
-            className="px-6 py-2 rounded-full font-medium text-white text-sm transition hover:opacity-90"
-            style={{
-              backgroundImage: `linear-gradient(to right, #1a237e, #d500f9)`,
-            }}
-          >
-            Get A Proposal →
-          </button>
-        </Link>
+     <CommonButton text="Get A Proposal →" link="/services"/>
       </div>
     </section>
   );

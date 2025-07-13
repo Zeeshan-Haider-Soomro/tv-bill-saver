@@ -1,4 +1,4 @@
-const SectionDivider = () => {
+const SectionDivider = ({ title = "" }) => {
   return (
     <div className="relative w-full h-24 bg-white">
       {/* SVG curve line */}
@@ -15,9 +15,9 @@ const SectionDivider = () => {
         />
       </svg>
 
-      {/* Centered text */}
+      {/* Centered dynamic text */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[15%] bg-white px-4 text-gray-700 font-medium">
-        Blogs
+        {title}
       </div>
     </div>
   );

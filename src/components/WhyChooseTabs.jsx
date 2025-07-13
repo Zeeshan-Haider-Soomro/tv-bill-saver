@@ -8,7 +8,7 @@ const tabs = [
     heading: '100% Campaign transparency',
     text:
       'We cultivate an environment of transparency and communication in all we do. You don’t have to wonder what is going on with your campaign – we will keep you in the loop and in control.',
-    image: '/images/tab1.jpg', // replace with your actual image path
+    image: '/images/ChatGPT Image Jul 13, 2025, 01_37_11 AM.png', // replace with your actual image path
   },
   {
     id: 'results',
@@ -16,7 +16,7 @@ const tabs = [
     heading: 'Guaranteed Results',
     text:
       'Our marketing strategies deliver measurable outcomes. With our data-driven approach and performance-based campaigns, your business will experience real growth and returns.',
-    image: '/images/tab2.jpg',
+    image: '/images/ChatGPT Image Jul 12, 2025, 07_19_36 PM.png',
   },
   {
     id: 'experts',
@@ -24,7 +24,7 @@ const tabs = [
     heading: 'Dedicated Team of Experts',
     text:
       'Our team is composed of seasoned professionals who specialize in various aspects of digital marketing and IT services, ensuring your brand gets the best expertise available.',
-    image: '/images/tab3.jpg',
+    image: '/images/ChatGPT Image Jul 12, 2025, 10_58_12 PM.png',
   },
 ];
 
@@ -59,24 +59,19 @@ const WhyChooseTabs = () => {
           <img
             src={activeTab.image}
             alt={activeTab.title}
-            className="rounded-xl w-full h-56 object-cover"
+            className="rounded-xl w-full object-cover"
           />
         </div>
 
         {/* Right Side */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Why <span className="text-blue-600">Choose</span> VireGlow Inc. ?
+            Why <span className="text-blue-600">Choose</span> Tv Bill Saver LLC. ?
           </h2>
           <p className="text-gray-800 leading-relaxed text-sm md:text-base">
-            VIREGLOW INC is a performance-focused digital marketing and technology company committed to
-            driving business growth through tailored solutions. We offer dependable customer support and
-            strategic sales support to enhance client relationships and maximize conversions. Our expertise
-            spans SEO consulting, custom web application development, and social media management to
-            strengthen brand presence.
+           TV Bill Saver LLC is a performance-driven sales and telemarketing company dedicated to helping businesses grow through targeted outreach and personalized customer engagement. We specialize in lead generation, customer retention, and 24/7 support services that foster strong client relationships and drive real conversions.
             <br /><br />
-            At VIREGLOW INC, we align creativity, technology, and strategy to deliver impactful, measurable
-            results.
+           At TV Bill Saver LLC, we combine strategic communication, proven sales techniques, and reliable technology to ensure your brand reaches the right audience—efficiently and effectively. Our mission is to deliver measurable results that scale your business and maximize ROI.
           </p>
 
 <br />

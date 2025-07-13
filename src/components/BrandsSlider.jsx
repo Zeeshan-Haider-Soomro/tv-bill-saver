@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
 
 const brands = [
-  '/images/brand1.png',
-  '/images/brand2.png',
-  '/images/brand3.png',
-  '/images/brand4.png',
-  '/images/brand5.png',
+   "https://theinternetproviders.com/wp-content/uploads/2024/09/Earthlink-1.svg",
+    "https://theinternetproviders.com/wp-content/uploads/2024/09/Frontier-1.svg",
+    "https://theinternetproviders.com/wp-content/uploads/2024/09/Spectrum-1.svg",
+    "https://theinternetproviders.com/wp-content/uploads/2024/09/Quantum.svg",
+    "https://theinternetproviders.com/wp-content/uploads/2024/09/Xfinity-1.svg",
+  
 ];
 
 const BrandsSlider = () => {
@@ -24,15 +25,15 @@ const BrandsSlider = () => {
 
   return (
     <section className="bg-white md:py-30 py-15 text-center">
-      <h2 className="text-2xl md:text-3xl font-semibold mb-8">
+      <h2 className="text-3xl md:text-4xl px-8 md:pb-5 font-semibold md:mb-15 mb-8">
         The best brands choose{' '}
-        <span className="text-blue-600 font-bold">VireGlow Inc.</span>
+        <span className="text-blue-600 font-bold">Tv Bill Saver LLC.</span>
       </h2>
 
       {/* Desktop: show all logos */}
       <div className="hidden md:flex justify-center gap-12 items-center">
         {brands.map((logo, index) => (
-          <img key={index} src={logo} alt={`Brand ${index}`} className="h-10 grayscale hover:grayscale-0 transition" />
+          <img key={index} src={logo} alt={`Brand ${index}`} className="h-10  hover:grayscale-0 transition" />
         ))}
       </div>
 
@@ -41,7 +42,7 @@ const BrandsSlider = () => {
         <img
           src={brands[activeIndex]}
           alt={`Brand ${activeIndex}`}
-          className="h-10 grayscale transition-all duration-500"
+          className="h-10  transition-all duration-500"
         />
       </div>
     </section>

@@ -10,27 +10,20 @@ const AboutUsSection = () => {
             About Us
           </p>
           <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-6">
-            Digital marketing{" "}
-            <span className="text-blue-600">solutions</span> designed to
-            generate revenue for your{" "}
-            <span className="text-blue-600">business</span>
+            Sales and telemarketing {" "}
+            <span className="text-blue-600">strategies</span>engineered to
+            drive real revenue for your{" "}
+            <span className="text-blue-600">business.</span>
           </h2>
           <p className="text-gray-700 text-base leading-relaxed">
-            At VireGlow Inc., we deliver end-to-end digital growth solutions
-            combining innovative marketing with dedicated support. Our expert
-            team crafts custom SEO strategies, manages high-converting PPC
-            campaigns, and builds performance-driven websites – all while
-            optimizing your sales funnel and providing 24/7 customer support.
-            From first click to final sale, we power your business growth with
-            data-driven strategies and white-glove service tailored to your
-            unique needs.
+            At TV Bill Saver LLC, we deliver complete growth solutions that combine powerful telemarketing with strategic sales support. Our trained agents handle every lead with precision, converting interest into loyal customers through persuasive communication and performance-focused outreach. From lead generation to customer retention, we optimize every step of your sales funnel. Backed by real-time data insights and 24/7 support, our team ensures consistent revenue growth and unmatched service—tailored to your business goals.
           </p>
         </div>
 
         {/* Right Image */}
         <div className="flex-1">
           <img
-            src="/images/vireglow-man.png" // Replace with your image path
+            src="/images/ChatGPT Image Jul 13, 2025, 01_01_43 AM.png" // Replace with your image path
             alt="About Us - VireGlow"
             className="rounded-[30px] shadow-xl w-full object-cover"
           />

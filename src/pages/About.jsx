@@ -1,4 +1,5 @@
 import AboutUsSection from '../components/AboutUsSection'
+import BrandsSlider from '../components/BrandsSlider'
 import OurValues from '../components/OurValues'
 import SmartMarketingSection from '../components/SmartMarketingSection'
 
@@ -8,6 +9,7 @@ const About = () => {
       <AboutUsSection/>
       <OurValues/>
       <SmartMarketingSection/>
+      <BrandsSlider />
     </div>
   )
 }

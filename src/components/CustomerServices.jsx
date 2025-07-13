@@ -1,13 +1,43 @@
-import { FaHeadset } from 'react-icons/fa';
-import CommonButton from './CommonButton';
+import {
+  FaHeadset,
+  FaUsers,
+  FaBullhorn,
+  FaSearchDollar,
+} from "react-icons/fa";
+import { MdTrendingUp } from "react-icons/md";
+import CommonButton from "./CommonButton";
 
 const services = [
-  "Sales Support",
-  "Customer Support",
-  "Social Media Marketing",
-  "Web Development",
-  "PPC Advertising",
-  "SEO Optimization",
+  {
+    title: "Sales Support",
+    description:
+      "We help your team convert leads into loyal customers through expert sales outreach and funnel optimization.",
+    icon: <FaUsers />,
+  },
+  {
+    title: "Customer Support",
+    description:
+      "Offer exceptional 24/7 assistance with our dedicated support team, boosting satisfaction and retention.",
+    icon: <FaHeadset />,
+  },
+  {
+    title: "Digital Marketing",
+    description:
+      "We build your brand presence across all major platforms with engaging content and strategic campaigns.",
+    icon: <FaBullhorn />,
+  },
+  {
+    title: "PPC Advertising",
+    description:
+      "Maximize ROI through targeted, high-converting pay-per-click campaigns across Google, Meta, and more.",
+    icon: <FaSearchDollar />,
+  },
+  {
+    title: "SEO Optimization",
+    description:
+      "Drive organic traffic and improve visibility with tailored on-page and off-page SEO strategies.",
+    icon: <MdTrendingUp />,
+  },
 ];
 
 const CustomerServices = () => {
@@ -34,14 +64,11 @@ const CustomerServices = () => {
       <div className="relative z-10 max-w-4xl mx-auto text-center mb-14">
         <p className="text-gray-600 text-sm mb-2">Our Capabilities</p>
         <h2 className="text-4xl font-bold text-gray-800 leading-tight">
-          Data-driven,{" "}
-          <span className="text-blue-600">customer-centric</span> digital
-          services
+          Data-Driven,{" "}
+          <span className="text-blue-600">customer-centric</span> Sales & Telemarketing Solutions
         </h2>
-
-        {/* 🔘 Button */}
         <br />
-      <CommonButton text="View All Services →" link="/services" />
+        <CommonButton text="View All Services →" link="/services" />
       </div>
 
       {/* 🟩 Service Cards */}
@@ -53,15 +80,12 @@ const CustomerServices = () => {
               className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center transition hover:shadow-2xl"
             >
               <div className="text-orange-500 text-4xl mb-4">
-                <FaHeadset />
+                {service.icon}
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                {service}
+                {service.title}
               </h3>
-              <p className="text-sm text-gray-600">
-                At Vireglow Inc., we provide end-to-end digital marketing solutions
-                designed to enhance and grow your brand’s online visibility.
-              </p>
+              <p className="text-sm text-gray-600">{service.description}</p>
             </div>
           ))}
         </div>

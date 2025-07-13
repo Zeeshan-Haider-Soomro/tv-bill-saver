@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import CommonButton from "./CommonButton";
 
 const ServiceHighlight = () => {
@@ -10,14 +9,10 @@ const ServiceHighlight = () => {
         <div>
           <p className="uppercase text-sm tracking-wide text-gray-600 mb-2">Our Services</p>
           <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
-            Solutions that Drive <span className="text-blue-600">Business</span> Growth
+            Revenue-Driven<span className="text-blue-600">Sales & Telemarketing</span> Solutions
           </h2>
           <p className="text-gray-700 text-base leading-relaxed mb-6">
-            VireGlow Inc delivers high-impact digital and IT services that bridge creativity with performance. 
-            Our expert team combines strategic insight, technical precision, and creative execution to provide 
-            customized solutions that help businesses thrive in the digital world. Whether you’re looking to 
-            expand your online presence, improve customer experience, or optimize business operations, we deliver 
-            the tools and talent to achieve measurable results.
+            TV Bill Saver LLC delivers high-impact sales, customer support, and telemarketing solutions that merge strategy with results. Our team blends industry insight, process efficiency, and proven sales techniques to help businesses grow fast. From boosting customer engagement to driving qualified leads and improving client retention, we offer scalable solutions built for measurable impact.
           </p>
 
        <CommonButton text="View All Solutions →" link="/services" />
@@ -26,9 +21,9 @@ const ServiceHighlight = () => {
         {/* Right Image */}
         <div>
           <img
-            src="/images/vireglow-monitor.png" // replace with your actual image path
+            src="/images/ChatGPT Image Jul 13, 2025, 01_15_03 AM.png" // replace with your actual image path
             alt="VireGlow monitor"
-            className="w-full h-auto rounded-3xl shadow-lg object-cover"
+            className="w-full h-100 rounded-3xl shadow-lg object-cover"
           />
         </div>
       </div>

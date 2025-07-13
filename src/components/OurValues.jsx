@@ -1,22 +1,23 @@
+import { FaPhoneAlt, FaBullhorn, FaChartLine } from 'react-icons/fa';
 
 const values = [
   {
     title: "Sales Support",
     description:
-      "At Vireglow Inc., we provide end-to-end digital marketing solutions designed to enhance and grow your brand’s online visibility. Our services include:",
-    icon: "/icons/headset-icon.png",
+      "At TV Bill Saver LLC, we offer comprehensive sales support solutions designed to increase conversions and customer engagement. Our expert team ensures every lead is handled with care, helping your business grow consistently and build long-term customer relationships.",
+    icon: <FaPhoneAlt className="text-blue-500 text-4xl mb-4" />,
   },
   {
-    title: "Sales Support",
+    title: "Telemarketing Support",
     description:
-      "At Vireglow Inc., we provide end-to-end digital marketing solutions designed to enhance and grow your brand’s online visibility. Our services include:",
-    icon: "/icons/headset-icon.png",
+      "At TV Bill Saver LLC, we provide end-to-end telemarketing solutions tailored to engage prospects, drive sales, and strengthen customer relationships. Our trained agents deliver persuasive communication that converts leads into loyal customers — all while representing your brand with professionalism and impact.",
+    icon: <FaBullhorn className="text-blue-500 text-4xl mb-4" />,
   },
   {
-    title: "Sales Support",
+    title: "Digital Marketing Support",
     description:
-      "At Vireglow Inc., we provide end-to-end digital marketing solutions designed to enhance and grow your brand’s online visibility. Our services include:",
-    icon: "/icons/headset-icon.png",
+      "At TV Bill Saver LLC, we offer comprehensive digital marketing solutions crafted to elevate your brand’s online presence and drive measurable growth. From strategic SEO and targeted advertising to social media management and content creation, our services are designed to attract, engage, and convert your ideal customers.",
+    icon: <FaChartLine className="text-blue-500 text-4xl mb-4" />,
   },
 ];
 
@@ -31,11 +32,9 @@ const OurValues = () => {
         {/* Top Card Centered */}
         <div className="flex justify-center mb-6">
           <div className="bg-white shadow-md rounded-xl p-6 w-full max-w-sm text-center">
-            <img
-              src={values[0].icon}
-              alt={values[0].title}
-              className="mx-auto w-14 h-14 mb-4"
-            />
+            <div className="flex justify-center">
+              {values[0].icon}
+            </div>
             <h3 className="text-lg font-semibold mb-2">{values[0].title}</h3>
             <p className="text-sm text-gray-700">{values[0].description}</p>
           </div>
@@ -48,11 +47,9 @@ const OurValues = () => {
               key={index}
               className="bg-white shadow-md rounded-xl p-6 w-full max-w-sm text-center"
             >
-              <img
-                src={value.icon}
-                alt={value.title}
-                className="mx-auto w-14 h-14 mb-4"
-              />
+              <div className="flex justify-center">
+                {value.icon}
+              </div>
               <h3 className="text-lg font-semibold mb-2">{value.title}</h3>
               <p className="text-sm text-gray-700">{value.description}</p>
             </div>

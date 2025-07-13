@@ -1,21 +1,21 @@
 const blogs = [
   {
-    title: "Why Every Small Business Needs an SEO Plan",
+    title: "Why Every Small Business Needs a Sales Support Strategy",
     description:
-      "We cultivate an environment of transparency and communication in all we do. You don’t have to wonder what is going on with your campaign – we will keep you in the loop and in control.",
-    image: "/images/blog-img.jpg", // Replace with your image path
+      "We build a foundation of clear communication and trust in everything we do. With our dedicated sales support solutions, you’ll always know how your leads are being managed and how your business is progressing — we keep you informed, empowered, and in control every step of the way.",
+    image: "/images/ChatGPT Image Jul 12, 2025, 11_07_07 PM.png", // Replace with your image path
   },
   {
-    title: "Why Every Small Business Needs an SEO Plan",
+    title: "Why Every Small Business Needs a Telemarketing Support Plan",
     description:
-      "We cultivate an environment of transparency and communication in all we do. You don’t have to wonder what is going on with your campaign – we will keep you in the loop and in control.",
-    image: "/images/blog-img.jpg",
+      "Direct communication drives results. With dedicated telemarketing support, your business can engage leads in real-time, build strong customer relationships, and close more deals. We prioritize transparency and collaboration—keeping you informed every step of the way as we represent your brand with professionalism and precision.",
+    image: "/images/ChatGPT Image Jul 13, 2025, 12_25_21 AM.png",
   },
   {
-    title: "Why Every Small Business Needs an SEO Plan",
+    title: "Why Every Small Business Needs a Digital Marketing Strategy",
     description:
-      "We cultivate an environment of transparency and communication in all we do. You don’t have to wonder what is going on with your campaign – we will keep you in the loop and in control.",
-    image: "/images/blog-img.jpg",
+      "In today’s fast-paced online world, visibility is everything. We create a transparent and collaborative environment where you’re always informed. With our strategic digital marketing support, you’ll stay in control—watching your brand grow with clear insights, real results, and campaigns that truly connect.",
+    image: "/images/ChatGPT Image Jul 13, 2025, 12_31_15 AM.png",
   },
 ];
 
