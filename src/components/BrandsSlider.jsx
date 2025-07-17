@@ -4,9 +4,9 @@ const brands = [
    "https://theinternetproviders.com/wp-content/uploads/2024/09/Earthlink-1.svg",
     "https://theinternetproviders.com/wp-content/uploads/2024/09/Frontier-1.svg",
     "https://theinternetproviders.com/wp-content/uploads/2024/09/Spectrum-1.svg",
-    "https://theinternetproviders.com/wp-content/uploads/2024/09/Quantum.svg",
-    "https://theinternetproviders.com/wp-content/uploads/2024/09/Xfinity-1.svg",
-  
+    "https://theinternetproviders.com/wp-content/uploads/2024/09/Quantum.svg",  
+    "https://theinternetproviders.com/wp-content/uploads/2024/09/Kinetic.svg", // ✅ Kinetic added
+  "https://theinternetproviders.com/wp-content/uploads/2024/09/Optimum.svg", // ✅ Optimum added
 ];
 
 const BrandsSlider = () => {
@@ -33,7 +33,7 @@ const BrandsSlider = () => {
       {/* Desktop: show all logos */}
       <div className="hidden md:flex justify-center gap-12 items-center">
         {brands.map((logo, index) => (
-          <img key={index} src={logo} alt={`Brand ${index}`} className="h-10  hover:grayscale-0 transition" />
+          <img key={index} src={logo} alt={`Brand ${index}`} className="h-10 cursor-pointer hover:grayscale-0 transition" />
         ))}
       </div>
 

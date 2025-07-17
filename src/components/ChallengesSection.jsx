@@ -1,26 +1,26 @@
-import { FaTools, FaWordpress, FaChartLine, FaUsers } from "react-icons/fa";
+import { FaPhoneAlt, FaBullhorn, FaChartBar, FaUserSlash } from "react-icons/fa";
 
 const challenges = [
   {
-    title: "Facing These Challenges?",
-    description: "If your online presence is weak or your growth has stalled.",
-    icon: <FaTools className="text-3xl" />,
+    title: "Low Sales or Conversions",
+    description: "If you're struggling to convert leads into paying customers despite traffic.",
+    icon: <FaChartBar className="text-3xl" />,
     highlight: true,
   },
   {
-    title: "Fix Your Website",
-    description: "If your website is slow, outdated, or failing to convert visitors.",
-    icon: <FaWordpress className="text-3xl" />,
+    title: "No Qualified Leads",
+    description: "You're getting traffic, but the leads are unqualified or not engaging.",
+    icon: <FaPhoneAlt className="text-3xl" />,
   },
   {
-    title: "Rank on Google",
-    description: "Not appear in search results or seeing a drop in organic traffic?",
-    icon: <FaChartLine className="text-3xl" />,
+    title: "Outdated Outreach Strategy",
+    description: "Still relying on cold calls or email blasts that don't deliver real ROI?",
+    icon: <FaBullhorn className="text-3xl" />,
   },
   {
-    title: "Fix Low Engagement",
-    description: "Struggle to connect with audience or a loyal following?",
-    icon: <FaUsers className="text-3xl" />,
+    title: "Weak Brand Credibility",
+    description: "Customers aren’t responding due to poor visibility, inconsistency, or lack of trust.",
+    icon: <FaUserSlash className="text-3xl" />,
   },
 ];
 
@@ -31,7 +31,7 @@ const ChallengesSection = () => {
         {challenges.map((item, idx) => (
           <div
             key={idx}
-            className={`rounded-2xl p-6 text-center transition-all duration-300 border shadow-md ${
+            className={`rounded-2xl cursor-pointer p-6 text-center transition-all duration-300 border shadow-md ${
               item.highlight
                 ? "bg-[#3b6eb1] text-white"
                 : "bg-white text-gray-800 hover:bg-[#3b6eb1] hover:text-white hover:border-white"

@@ -20,7 +20,7 @@ const StatsCounter = () => {
         {stats.map((stat) => (
           <div
             key={stat.id}
-            className="bg-white rounded-xl shadow-md p-6 text-center transition hover:shadow-lg"
+            className="bg-white cursor-pointer rounded-xl shadow-md p-6 text-center transition hover:shadow-lg"
           >
             <h3 className="text-3xl font-bold text-blue-600 underline underline-offset-4">
               {inView ? (

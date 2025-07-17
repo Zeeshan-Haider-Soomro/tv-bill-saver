@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
           {cards.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-[0_5px_10px_rgba(0,0,0,0.05)] p-6 text-center"
+              className="bg-white cursor-pointer rounded-xl shadow-[0_5px_10px_rgba(0,0,0,0.05)] p-6 text-center"
             >
               <div className="text-orange-400 text-3xl mb-4 flex justify-center">
                 {item.icon}

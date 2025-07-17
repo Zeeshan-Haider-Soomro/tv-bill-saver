@@ -45,7 +45,7 @@ const OurValues = () => {
           {values.slice(1).map((value, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-xl p-6 w-full max-w-sm text-center"
+              className="bg-white cursor-pointer shadow-md rounded-xl p-6 w-full max-w-sm text-center"
             >
               <div className="flex justify-center">
                 {value.icon}

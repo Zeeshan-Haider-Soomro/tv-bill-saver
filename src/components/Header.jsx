@@ -9,9 +9,9 @@ const Header = () => {
       <header className="fixed top-4 left-0 right-0 mx-4 z-50 bg-white shadow-[0_4px_20px_rgba(255,165,0,0.4),0_4px_30px_rgba(0,0,255,0.3)] rounded-full">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           {/* Logo */}
-          <div className="relative w-50 h-1">
+          <div className="relative w-76 h-1">
             <Link to="/">
-              <img src="/images/Logo.png" alt="Logo" className="absolute -top-18 h-36 w-36" />
+              <img src="/images/logo 1[1].png" alt="Logo" className="absolute -left-19 -top-25 h-50 w-76" />
             </Link>
           </div>
 

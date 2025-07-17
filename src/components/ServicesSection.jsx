@@ -70,7 +70,7 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center transition hover:shadow-xl"
+              className="bg-white cursor-pointer rounded-xl shadow-md p-6 flex flex-col items-center text-center transition hover:shadow-xl"
             >
               <div className="text-orange-500 text-4xl mb-4">
                 {service.icon}

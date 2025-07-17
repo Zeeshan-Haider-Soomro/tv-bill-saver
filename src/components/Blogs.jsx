@@ -34,7 +34,7 @@ const Blogs = () => {
         {blogs.map((blog, index) => (
           <div
             key={index}
-            className="bg-white rounded-3xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition"
+            className="bg-white cursor-pointer rounded-3xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition"
           >
             <h3 className="text-md font-semibold mb-3">{blog.title}</h3>
             <p className="text-sm text-gray-600 mb-4">{blog.description}</p>

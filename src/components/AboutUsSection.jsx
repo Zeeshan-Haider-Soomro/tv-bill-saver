@@ -10,10 +10,10 @@ const AboutUsSection = () => {
             About Us
           </p>
           <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-6">
-            Sales and telemarketing {" "}
-            <span className="text-blue-600">strategies</span>engineered to
+            Sales and Telemarketing {" "}
+            <span className="text-blue-600">Strategies </span> Engineered to
             drive real revenue for your{" "}
-            <span className="text-blue-600">business.</span>
+            <span className="text-blue-600">Business.</span>
           </h2>
           <p className="text-gray-700 text-base leading-relaxed">
             At TV Bill Saver LLC, we deliver complete growth solutions that combine powerful telemarketing with strategic sales support. Our trained agents handle every lead with precision, converting interest into loyal customers through persuasive communication and performance-focused outreach. From lead generation to customer retention, we optimize every step of your sales funnel. Backed by real-time data insights and 24/7 support, our team ensures consistent revenue growth and unmatched service—tailored to your business goals.
